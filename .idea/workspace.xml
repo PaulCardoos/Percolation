@@ -42,7 +42,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.PercolationStats">
+  <component name="RunManager" selected="Application.PercolationVisualizer">
     <configuration name="ArrayPercolation" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPercolation" />
       <module name="project1" />
