@@ -8,7 +8,7 @@
 </ul>
 
 ## How to Run the code
-In order to run this code you need to make sure that the algs4.jar and the stdlib.jar files are in the your java classpath. You can follow a tutorial on how to 
+In order to run this code you need to make sure that the algs4.jar and the stdlib.jar files are in your java classpath. You can follow a tutorial on how to 
 do this if you click on these links depending on your operating system.
 
 <ul> 
@@ -53,9 +53,7 @@ top down. If water can flow from the top row to the bottom row the system percol
 <b>UFPercolation</b> implements the Percolation interface as well and uses a WeightQuickUnionUF (you can find this class <a href="https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/WeightedQuickUnionUF.java.html">here</a>) 
 object as the underlying data structure.
 
-<b>Percolation Stats</b> is an estimation of the percolation threshold using a monte carlo simulation. The code makes a UFPercolation object and picks a random row and col
-in between 1 to n and fills cells until the UFPercolation object percolates. We go on to repeat this experiment m time while recording the percolation threshold each time.
-At the end of the experiment to code display the mean, standard deviation, high confidence, and low confidence.
+<b>Percolation Stats</b> is an estimation of the percolation threshold using a monte carlo simulation. The code makes a UFPercolation object and picks a random row and col in between 1 to n and fills cells until the UFPercolation object percolates. We go on to repeat this experiment m times while recording the percolation threshold each time. At the end of the experiment the code displays the mean, standard deviation, high confidence, and low confidence.
 
 ## Visualizer
 
